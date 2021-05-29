@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -31,17 +34,41 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/vendor/bootstrap.min.css",
+              "src/assets/css/plugins/themify-icons.css",
+              "src/assets/css/plugins/feature.css",
+              "src/assets/css/vendor/slick.css",
+              "src/assets/css/vendor/slick-theme.css",
+              "src/assets/css/vendor/lightbox.css",
+              "src/assets/css/vendor/fontawesome.css",
+              "src/assets/css/style.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendor/modernizer.min.js",
+              "src/assets/js/vendor/jquery.js",
+              "src/assets/js/vendor/bootstrap.min.js",
+              "src/assets/js/vendor/avoid-console.js",
+              "src/assets/js/vendor/waypoint.js",
+              "src/assets/js/vendor/wow.js",
+              "src/assets/js/vendor/feather.js",
+              "src/assets/js/vendor/slick.min.js",
+              "src/assets/js/vendor/counterup.js",
+              "src/assets/js/vendor/video.js",
+              "src/assets/js/vendor/masonry.js",
+              "src/assets/js/vendor/lightbox.js",
+              "src/assets/js/vendor/particles.js",
+              "src/assets/js/vendor/contactform.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "3mb"
                 },
                 {
                   "type": "anyComponentStyle",
