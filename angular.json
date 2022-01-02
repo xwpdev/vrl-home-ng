@@ -31,12 +31,31 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendor/modernizer.min.js",
+              "src/assets/js/vendor/jquery.js",
+              "src/assets/js/vendor/bootstrap.min.js",
+              "src/assets/js/vendor/avoid-console.js",
+              "src/assets/js/vendor/waypoint.js",
+              "src/assets/js/vendor/wow.js",
+              "src/assets/js/vendor/feather.js",
+              "src/assets/js/vendor/slick.min.js",
+              "src/assets/js/vendor/counterup.js",
+              "src/assets/js/vendor/video.js",
+              "src/assets/js/vendor/masonry.js",
+              "src/assets/js/vendor/lightbox.js",
+              "src/assets/js/vendor/particles.js",
+              "src/assets/js/vendor/contactform.js",
+              "src/assets/js/main.js"
+            ],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -96,7 +115,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.scss"
