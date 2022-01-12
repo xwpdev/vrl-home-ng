@@ -11018,11 +11018,56 @@ button.btn-default.btn-dark.btn-border:hover {
   }
 }
 
+
+
+
+
+.breadcrumb-tf {
+  font-size: 72px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .breadcrumb-tf {
+    font-size: 56px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .breadcrumb-tf {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .breadcrumb-tf {
+    font-size: 40px;
+    line-height: 59px;
+  }
+}
+
+
+
+
+
 .rn-page-title p {
   font-size: 22px;
   line-height: 27px;
   color: #c6c9d8;
 }
+
+.breadcrumb-image {
+  position: relative;
+  z-index: 1;
+}
+.cnt-img{
+  position: absolute;
+  content: "";
+  width: 100%;
+  min-width: 900px;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  opacity: 0.5;
+}
+
 
 .breadcrumb-area {
   position: relative;
@@ -12824,6 +12869,7 @@ Slider Default Style
   font-weight: 900;
   line-height: 120px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .slide .inner h1.title {
     font-size: 100px;
@@ -17650,4 +17696,359 @@ a.purchase-btn:hover {
   }
 }
 
+.al-cen{
+  text-align: center;
+}
+
+.font-new-1{
+  color: white;
+  font-size: 18px;
+}
+
+.font-new-2{
+  color: white;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.text-padding-new-1{
+  padding: 0 8%;
+}
+
+.text-padding-new-2{
+  padding: 30px 40px;
+}
+
+.text-padding-new-2 li{
+  padding-bottom: 20px;
+}
+
+.center-new-1{
+  text-align: center;
+}
+
+.center-left-new-1{
+  text-align: left;
+}
+
+.about-button-area{
+  align-items: center;
+}
+.set-portpolio{
+  text-align: center;
+  color: white;
+  background-color: rgba(161, 0, 219, 1);
+  border-radius: 50em;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -.015em;
+  padding: 1em 2em;
+  border-color: rgba(161, 0, 219, 1);
+}
+
+.set-portpolio:hover {
+  background-color: white;
+  color: black;
+}
+
+.abt-img{
+  padding-top: 40px;
+}
+
+.about-txt-col li{
+  color:#6c757d!important;
+}
+
+/* ----------------  FAQ inline styles ----------------- */
+
+.content-wrapper-faq{
+    margin: 5% 0;
+}
+
+.main-head{
+    position: relative;
+    font-size: 10px;
+    margin: 0 10%;
+    margin-top: -20%;
+    text-align: center;
+}
+
+.main-head-p1{ 
+    font-size: 40px;
+}
+
+.sub-head-faq{
+    font-size: 20px;
+}
+
+.wpsm_panel-group{
+    padding: 5% 12% 0 12%;
+}
+#wpsm_accordion_738 .wpsm_panel-heading{
+padding:0px !important;
+}
+#wpsm_accordion_738 .wpsm_panel-title {
+margin:0px !important; 
+text-transform:none !important;
+line-height: 1 !important;
+}
+#wpsm_accordion_738 .wpsm_panel-title a{
+text-decoration:none;
+overflow:hidden;
+display:block;
+padding:0px;
+font-size: 16px !important;
+font-family: Arial !important;
+color:#514864 !important;
+border-bottom:0px !important;
+}
+
+#wpsm_accordion_738 .wpsm_panel-title a:focus {
+outline: 0px !important;
+}
+
+#wpsm_accordion_738 .wpsm_panel-title a:hover, #wpsm_accordion_738 .wpsm_panel-title a:focus {
+color:#514864 !important;
+}
+#wpsm_accordion_738 .acc-a{
+color: #514864 !important;
+background-color:#dddddd !important;
+border-color: #ddd;
+}
+#wpsm_accordion_738 .wpsm_panel-default > .wpsm_panel-heading{
+color: #514864 !important;
+background-color: #dddddd !important;
+border-color: #dddddd !important;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+#wpsm_accordion_738 .wpsm_panel-default {
+border:1px solid transparent !important;
+}
+#wpsm_accordion_738 {
+margin-bottom: 20px;
+overflow: hidden;
+float: none;
+width: 100%;
+display: block;
+}
+#wpsm_accordion_738 .ac_title_class{
+display: block;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 15px;
+padding-right: 15px;
+}
+#wpsm_accordion_738  .wpsm_panel {
+overflow:hidden;
+-webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+border-radius: 4px;
+}
+#wpsm_accordion_738  .wpsm_panel + .wpsm_panel {
+margin-top: 5px;
+}
+#wpsm_accordion_738  .wpsm_panel-body{
+background-color:#ffffff !important;
+color:#000000 !important;
+padding: 20px;
+border-top-color: #dddddd !important;
+font-size:14px !important;
+font-family: Arial !important;
+overflow: hidden;
+border: 2px solid #dddddd !important;
+}
+
+#wpsm_accordion_738 .ac_open_cl_icon{
+background-color:#dddddd !important;
+color: #514864 !important;
+float:left !important;
+padding-top: 12px !important;
+padding-bottom: 12px !important;
+line-height: 1.0 !important;
+padding-left: 15px !important;
+padding-right: 15px !important;
+display: inline-block !important;
+}
+
+     #wpsm_accordion_738 .wpsm_panel-heading {
+        background-image: url(https://mlqlv2ff9dvh.i.optimole.com/cqm_128-y3c7d3jj/w:auto/h:auto/q:auto/https://vrlabs.lk/wp-content/plugins/responsive-accordion-and-collapse/img/style-soft.png);
+        background-position: 0 0;
+        background-repeat: repeat-x;
+    }
+    #wpsm_accordion_738 .ac_open_cl_icon{
+        background-image: url(https://mlqlv2ff9dvh.i.optimole.com/cqm_128-y3c7d3jj/w:auto/h:auto/q:auto/https://vrlabs.lk/wp-content/plugins/responsive-accordion-and-collapse/img/style-soft.png);
+        background-position: 0 0;
+        background-repeat: repeat-x;
+    }
+
+/* END  FAQ inline styles  */
+
+
+/* ----------------  Contacts inlene styles ----------------- */
+
+
+
+.content-wrapper-faq{
+  margin: 5% 0;
+}
+
+.main-head{
+  position: relative;
+  font-size: 10px;
+  margin: 0 10%;
+  margin-top: -20%;
+  text-align: center;
+}
+
+.main-head-p1{ 
+  font-size: 40px;
+}
+
+.sub-head-faq{
+  font-size: 20px;
+}
+.contactus-img{
+  border-image: 20px;
+}
+.contact-paragraph{
+  font-size: 40px;
+}
+
+.container-contact {
+  box-sizing: border-box;
+  background-color: #080606;
+  display: grid;
+  max-width: 1400px;
+  padding: 70px 0 0 60px;
+}
+.time {
+  background-color: rgba(0, 0, 0, .95);
+  padding: 50px 50px 50px 0;
+  
+  text-align: center;
+  max-width: 700px;
+}
+.heading {
+font-size: 18px;
+color: white;
+}
+
+.days {
+color:#E91E63;
+font-size: 30px;
+
+}
+
+.phone {
+font-size: 20px;
+}
+.frm {
+padding: 20px 60px 30px 10px;
+margin: 0 40;
+color: rgb(255, 255, 255);
+background-color: black;
+max-width: 900px;
+}
+form {
+display: grid;
+grid-row-gap: 20px;
+}
+form p {
+font-weight: 600;
+}
+
+input,select {
+padding: 10px 15px;
+}
+.btn {
+background-color: rgba(36, 34, 36, 0.95);
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+width: 110px;
+height: 50px;
+font-size: 18px;
+cursor: pointer;
+}
+
+.btn:hover {
+transform: scale(1.03);
+box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+background-color: rgb(161, 162, 165);
+}
+
+.content-wrapper-contact img{
+width: 100% auto;
+height: auto;
+}
+
+.child-1{
+  border-right-color: 5px;
+}
+.container-contact1{
+  box-sizing: border-box;
+}
+@media (min-width: 768px){
+  .parent-1{
+      display: flex;
+  }
+}
+
+
+/* END  Contacts inline styles  */
+
+
+/* ----------------  products styles ----------------- */
+
+.youtube-vid{
+  padding: 60px 50px;
+}
+
+/*-------------------image slider-------------------*/
+
+.img-sld{
+ text-align: center;
+ max-width: 60%;
+ max-height: 60%;
+}
+
+/*-------------------end image slider-------------------*/
+
+/*-------------------product top image & button-------------------*/
+
+
+#img_container {
+  position:relative;
+  display:inline-block;
+  text-align:center;
+  
+}
+
+.button-mid {
+  position:absolute;
+  bottom:50%;
+  right:50%;
+  width:200px;
+  height:60px;
+  margin:0px -105px -24px 0px;
+  background-color: transparent;
+  color: blue;
+  font: bold;
+  cursor: pointer;
+  border: 2px solid;
+  border-color: blue;
+  border-radius: 5px;
+}
+.button-mid:hover{
+  background-color: blue;
+  color: white;
+}
+.resize {
+  width:100%;
+  height:auto;
+}
+
+/*-------------------end product top image & button-------------------*/
 /*# sourceMappingURL=../maps/style.css.map */

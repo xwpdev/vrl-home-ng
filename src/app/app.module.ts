@@ -9,12 +9,16 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { HardwareComponent } from './components/hardware/hardware.component';
-import { ProductsComponent } from './components/products/products.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { PanelComponent } from './components/services/panel/panel.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { WiddaComponent } from './components/products/widda/widda.component';
+import { KandyCasaComponent } from './components/products/kandy-casa/kandy-casa.component';
+import { AniPuzzleComponent } from './components/products/ani-puzzle/ani-puzzle.component';
+
+import { OwlModule } from 'ngx-owl-carousel';
 
 @NgModule({
   declarations: [
@@ -25,13 +29,17 @@ import { environment } from '../environments/environment';
     AboutComponent,
     ServicesComponent,
     HardwareComponent,
-    ProductsComponent,
+
     FaqComponent,
     ContactComponent,
-    PanelComponent
+    PanelComponent,
+    WiddaComponent,
+    KandyCasaComponent,
+    AniPuzzleComponent
   ],
   imports: [
     BrowserModule,
+    OwlModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
