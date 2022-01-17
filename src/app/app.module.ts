@@ -19,6 +19,12 @@ import { KandyCasaComponent } from './components/products/kandy-casa/kandy-casa.
 import { AniPuzzleComponent } from './components/products/ani-puzzle/ani-puzzle.component';
 
 import { OwlModule } from 'ngx-owl-carousel';
+import { OculusQuestComponent } from './components/hardware/oculus-quest/oculus-quest.component';
+import { OculusRiftComponent } from './components/hardware/oculus-rift/oculus-rift.component';
+import { HtcViveComponent } from './components/hardware/htc-vive/htc-vive.component';
+import { PlaystationComponent } from './components/hardware/playstation/playstation.component';
+import { SamsungGearComponent } from './components/hardware/samsung-gear/samsung-gear.component';
+import { EquipmentOnlyComponent } from './components/hardware/equipment-only/equipment-only.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +41,13 @@ import { OwlModule } from 'ngx-owl-carousel';
     PanelComponent,
     WiddaComponent,
     KandyCasaComponent,
-    AniPuzzleComponent
+    AniPuzzleComponent,
+    OculusQuestComponent,
+    OculusRiftComponent,
+    HtcViveComponent,
+    PlaystationComponent,
+    SamsungGearComponent,
+    EquipmentOnlyComponent
   ],
   imports: [
     BrowserModule,

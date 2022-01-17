@@ -3,7 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FaqComponent } from './components/faq/faq.component';
+import { EquipmentOnlyComponent } from './components/hardware/equipment-only/equipment-only.component';
 import { HardwareComponent } from './components/hardware/hardware.component';
+import { HtcViveComponent } from './components/hardware/htc-vive/htc-vive.component';
+import { OculusQuestComponent } from './components/hardware/oculus-quest/oculus-quest.component';
+import { OculusRiftComponent } from './components/hardware/oculus-rift/oculus-rift.component';
+import { PlaystationComponent } from './components/hardware/playstation/playstation.component';
+import { SamsungGearComponent } from './components/hardware/samsung-gear/samsung-gear.component';
 import { HomeComponent } from './components/home/home.component';
 import { AniPuzzleComponent } from './components/products/ani-puzzle/ani-puzzle.component';
 import { KandyCasaComponent } from './components/products/kandy-casa/kandy-casa.component';
@@ -21,6 +27,12 @@ const routes: Routes = [
   { path: 'widda', component: WiddaComponent },
   { path: 'kandy_casa', component: KandyCasaComponent },
   { path: 'ani_puzzle', component:  AniPuzzleComponent},
+  { path: 'oculus_quest', component:  OculusQuestComponent},
+  { path: 'oculus_rift', component:  OculusRiftComponent},
+  { path: 'htc_vive', component:  HtcViveComponent},
+  { path: 'play_station', component:  PlaystationComponent},
+  { path: 'samsung_gear', component:  SamsungGearComponent},
+  { path: 'equipment_only', component:  EquipmentOnlyComponent},
 ];
 
 @NgModule({
