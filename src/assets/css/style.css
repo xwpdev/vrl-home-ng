@@ -18040,6 +18040,16 @@ height: auto;
   max-width: 200px;
   max-height: 200px;
 }
+.upper-slider3 .slide-item{
+  padding: 0 10px;
+  max-width: 150px;
+  max-height: 150px;
+}
+.upper-slider3{
+  display: flex;
+  text-align: center;
+  margin: 40px 3% 20px 3%;
+}
 .hardware-ul li{
   padding-bottom: 20px;
 }
