@@ -156,6 +156,10 @@
   box-sizing: border-box;
 }
 
+.bg-opacity_about{
+  opacity: 10%;
+}
+
 article,
 aside,
 details,
@@ -4315,7 +4319,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .bg_image--18 {
-  background-image: url(/assets/images/bg/bg_about.jpg) !important;
+  background-image: url(/assets/images/bg/bg_about.png) !important;
 }
 
 .bg_image--19 {
@@ -11068,6 +11072,18 @@ button.btn-default.btn-dark.btn-border:hover {
   opacity: 0.5;
 }
 
+.cnt-img-product{
+  position: absolute;
+  content: "";
+  width: 100%;
+  min-width: 800px;
+  height: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  opacity: 0.5;
+}
+
 
 .breadcrumb-area {
   position: relative;
@@ -17800,7 +17816,7 @@ display:block;
 padding:0px;
 font-size: 16px !important;
 font-family: Arial !important;
-color:#514864 !important;
+color:white !important;
 border-bottom:0px !important;
 }
 
@@ -17809,17 +17825,17 @@ outline: 0px !important;
 }
 
 #wpsm_accordion_738 .wpsm_panel-title a:hover, #wpsm_accordion_738 .wpsm_panel-title a:focus {
-color:#514864 !important;
+color:#bebfc2 !important;
 }
 #wpsm_accordion_738 .acc-a{
-color: #514864 !important;
-background-color:#dddddd !important;
-border-color: #ddd;
+color: black !important;
+background-color:black !important;
+border-color: black;
 }
 #wpsm_accordion_738 .wpsm_panel-default > .wpsm_panel-heading{
-color: #514864 !important;
-background-color: #dddddd !important;
-border-color: #dddddd !important;
+color: black !important;
+background-color: black !important;
+border-color: black !important;
 border-top-left-radius: 0px;
 border-top-right-radius: 0px;
 }
@@ -17839,6 +17855,7 @@ padding-top: 12px;
 padding-bottom: 12px;
 padding-left: 15px;
 padding-right: 15px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #wpsm_accordion_738  .wpsm_panel {
 overflow:hidden;
@@ -17850,19 +17867,19 @@ border-radius: 4px;
 margin-top: 5px;
 }
 #wpsm_accordion_738  .wpsm_panel-body{
-background-color:#ffffff !important;
-color:#000000 !important;
+background-color:#242323 !important;
+color:white !important;
 padding: 20px;
-border-top-color: #dddddd !important;
+border-top-color: white !important;
 font-size:14px !important;
 font-family: Arial !important;
 overflow: hidden;
-border: 2px solid #dddddd !important;
+border: 1px solid grey !important;
 }
 
 #wpsm_accordion_738 .ac_open_cl_icon{
-background-color:#dddddd !important;
-color: #514864 !important;
+background-color:black !important;
+color: white !important;
 float:left !important;
 padding-top: 12px !important;
 padding-bottom: 12px !important;
@@ -17997,6 +18014,11 @@ height: auto;
   font-size: 15px;
   
 }
+
+.ytube-vid{
+  aspect-ratio: 19/9;
+}
+
 .hrdw-imgs{
   padding: 0 3%;
 }
@@ -18083,6 +18105,10 @@ height: auto;
   display:inline-block;
   text-align:center;
   
+}
+
+.bg-color-black{
+  background-color: black;
 }
 
 .button-mid {
