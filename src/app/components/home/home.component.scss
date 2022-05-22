@@ -1,0 +1,62 @@
+:host {
+  display: block;
+
+  .theme-gradient,
+  a.btn-transparent,
+  .section-title span.subtitle {
+    background: linear-gradient(345deg, #1c99fe, #7644ff, #fb5012, #d30981);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 15% 0%;
+    }
+    50% {
+      background-position: 40% 100%;
+    }
+    75% {
+      background-position: 85% 100%;
+    }
+    100% {
+      background-position: 15% 0%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 15% 0%;
+    }
+    50% {
+      background-position: 40% 100%;
+    }
+    75% {
+      background-position: 85% 100%;
+    }
+    100% {
+      background-position: 15% 0%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 15% 0%;
+    }
+    50% {
+      background-position: 40% 100%;
+    }
+    75% {
+      background-position: 85% 100%;
+    }
+    100% {
+      background-position: 15% 0%;
+    }
+  }
+}
