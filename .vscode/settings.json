@@ -19,5 +19,8 @@
         "statusBarItem.remoteForeground": "#e7e7e7",
         "commandCenter.border": "#e7e7e799"
     },
-    "peacock.color": "#342d57"
+    "peacock.color": "#342d57",
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/azure-static-web-apps-white-forest-07ca25d00.yml"
+    ]
 }
