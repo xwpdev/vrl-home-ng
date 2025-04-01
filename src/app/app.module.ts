@@ -51,7 +51,7 @@ import { EquipmentOnlyComponent } from './components/hardware/equipment-only/equ
   ],
   imports: [
     BrowserModule,
-    OwlModule,
+    // OwlModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
